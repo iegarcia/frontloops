@@ -26,8 +26,8 @@ a{
   width: 1px;
 }
 
-img.hover{
-  box-shadow: 7px black;
+img:hover{
+  box-shadow: 0px 0px 7px #00000080;
 }
 
 .articulo1{
