@@ -10,16 +10,19 @@ body{
   background-color: black;
 }
 
-a:hover{
-  color: white;
-}
 a{
   color: white;
 }
 
 h1{
+  width: 100%;
   text-align: center;
-  background-color: grey;
-  color:white;
+  color: white;
   text-decoration: underline;
+}
+
+.atras{
+  position: relative;
+  top: 497px;
+  right: 487px;
 }
