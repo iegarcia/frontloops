@@ -1,0 +1,187 @@
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Roboto',sans-serif;
+}
+body{
+  background-color: #a7bfd5;
+}
+
+.container{
+  display:flex;
+  width: 100%;
+  height: 100vh;
+}
+
+section{
+  border: solid 2px white;
+  width: 383px;
+  height: 450px;
+  align-self: center;
+  background-color: white;
+}
+
+
+.destino{
+  background-color: #6a96d8;
+  color: #ffffffde;
+  width: 100%;
+  height: 50px;
+}
+
+ul{
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: smaller;
+}
+
+ul li{
+  padding: 3px;
+  margin-left: 25px;
+  padding-top: 16px;
+}
+
+a:hover{
+  color: white;
+}
+
+.cierre{
+  text-decoration: none;
+  color:#ffffffa6;
+  text-align: right;
+  position: relative;
+  left: 352px;
+  bottom: 30px;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.linea1{
+  width: 148px;
+  position: relative;
+  right: 107px;
+  top: 10px;
+  color: #ffffffb3;
+}
+
+.dia{
+  color: grey;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: small;
+  margin-top: 9px;
+}
+
+.linea2{
+  width: 148px;
+  position: relative;
+  left: 111px;
+  top: -9px;
+  color: #ffffffb3;
+}
+
+.mensaje1, .mensaje2, .mensaje3{
+  /*! display: flex; */
+  /*! flex-direction: column; */
+}
+
+.hora1, .hora2, .hora3{
+  font-size: small;
+  background-color: #ffffffb3;
+  color: grey;
+  position: relative;
+  bottom: 20px;
+  width: 36px;
+}
+
+.hora1{
+  width: 34px;
+  margin-right: 216px;
+}
+
+.mensaje1{
+  background-color: #d9edff;
+  width: 253px;
+  font-size: small;
+  margin-top: 39px;
+  margin-right: 116px;
+  padding-bottom: 2px;
+}
+
+.texto{
+  position: relative;
+  bottom: 8px;
+  left: 6px;
+}
+
+.mensaje2{
+  width: 264px;
+  font-size: small;
+  margin-top: 56px;
+  margin-right: 13px;
+  padding-bottom: 3px;
+  background-color: #8080801a;
+}
+
+.hora2{
+  position: relative;
+  left: 100px;
+}
+
+.mensaje3{
+  background-color: #d9edff;
+  width: 75px;
+  font-size: small;
+  margin-top: 32px;
+  margin-right: 295px;
+  padding-bottom: 2px;
+}
+
+.hora3{
+  width: 34px;
+  position: relative;
+  right: 20px;
+}
+
+.mensaje4{
+  width: 190px;
+  font-size: small;
+  margin-top: 14px;
+  margin-right: 13px;
+  padding-bottom: 22px;
+  background-color: #fa807280;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.blocked{
+  position: relative;
+  top: 12px;
+}
+
+hr{
+  color: #ffffffb3;
+  width: 355px;
+}
+
+a{
+  text-decoration: none;
+  color: #0081ffb3;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  left: 318px;
+  bottom: 33px;
+  letter-spacing: 1px;
+}
+
+input{
+width: 300px;
+height: 46px;
+border: none;
+position: relative;
+left: 12px;
+}
