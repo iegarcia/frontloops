@@ -1,28 +1,22 @@
-*{
-  box-sizing: border-box;
-  margin: 0 auto;
-  padding: 0:
-}
-body{
-  background-image: url("../img/github.png");
-  background-position: top;
+body {
+  background-image:url("../img/github.png");
+  background-position:top;
   background-repeat: no-repeat;
   background-color: black;
 }
 
-a{
+h1 {
+  width:100%;
+  text-align:center;
+  color:white;
+  text-decoration:underline;
+}
+
+.button {
   color: white;
 }
 
-h1{
-  width: 100%;
-  text-align: center;
-  color: white;
-  text-decoration: underline;
-}
-
-.atras{
+.atras {
   position: relative;
-  top: 497px;
-  right: 487px;
+  top: 40%;
 }
