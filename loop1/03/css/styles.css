@@ -9,97 +9,93 @@ body{
 }
 
 .container{
+  display: flex;
   background-color: #008065;
+  align-items: center;
   width: 100%;
   height: 100vh;
-  display: flex;
+}
+.seccion {
+  width: 40%;
+  height: 430px;
+  overflow: hidden;
 }
 
 section{
   background-color: white;
-  width: 521px;
-  align-self: center;
-  height: 433px;
 }
 
-a{
-  width: 1px;
-}
-
-img:hover{
-  box-shadow: 0px 0px 7px #00000080;
-}
-
-.articulo1{
-  margin-top: -6px;
-}
-
-.articulo1 img{
-  position: relative;
-  left: 196px;
-  bottom: 28px;
-  border: solid 1px lightgrey;
-  border-radius: 18px;
-  padding: 7px;
-  height: 36px;
-  display: block;
-}
-
-.gracias{
-  font-size: 13px;
-  width:550px;
-  margin-top: -19px;
-  color: grey;
+.articulo1 {
+  padding-left: 60px;
+  padding-right: 90px;
+  padding-top: 20px;
+  padding-bottom: 0px;
 }
 
 .articulo2{
-  margin-top:-33px;
+  margin-top: -90px;
 }
+
+.user:hover{
+  box-shadow: 0px 0px 7px #00000080;
+}
+
+.user{
+  position: relative;
+  left: 365px;
+  top: 28px;
+  border: solid 1px lightgrey;
+  border-radius: 20px;
+  padding: 14px 6px 3px 6px;
+}
+
+.gracias{
+  width: 100%;
+  font-size: 12.2px;
+  color: grey;
+}
+
 
 .producto{
   color: grey;
-  margin: 5px 0px;
 }
 
 .precio{
   text-align: right;
+  font-weight: 700;
   position: relative;
   bottom: 20px;
-  left: -4px;
-  font-weight: 700;
-}
-
-.articulo2{
-  margin-top: -35px;
-  height: 77px;
 }
 
 .total{
   font-weight: 500;
   text-transform: uppercase;
-
   font-size: large;
   color: grey;
 }
 
-.articulo1, .articulo2, .articulo3{
-  height: 135px;
-  width: 525px;
-  margin-left: -3px;
-  padding: 50px;
-  margin-right: -3px;
+.bici {
+  width: 100%;
 }
 
-.articulo3{
-  margin-top: -36px;
-  overflow: hidden;
-  height: 240px;
+@media (min-width:360px) and (max-width: 576px) {
+  .seccion {
+    width: 95%;
+    height: 420px;
+  }
+  .articulo1, .articulo2 {
+    padding: 0;
+    margin: 0;
+  }
 }
 
-.imagen{
-  position: relative;
-  right: 43px;
-  bottom: 85px;
-  width: 514px;
-  height: 351px;
+@media (min-width:576px) and (max-width: 920px) {
+  .seccion {
+    width: 70%;
+    height: 480px;
+  }
+  /* .articulo1, .articulo2 {
+    padding: 0;
+    margin: 0;
+  } */
 }

@@ -9,28 +9,32 @@ body{
   text-align: center;
 }
 
+.section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+}
+
 .container{
   background-color: #629afcb3;
   width: 100%;
   height: 100vh;
-  justify-content: center;
 }
 
 section{
   display: flex;
   background: #fff;
-  height: 51vh;
-  align-items: center;
-  width: 123vh;
+  width: 70%;
   box-shadow: 0px 6px grey;
 }
 article{
-  width: 327px;
+  width: 34%;
 }
 
 p {
   color: grey;
-  /*! width: 100px; */
+  width: 100%;
   font-size: smaller;
 }
 
@@ -55,8 +59,8 @@ p {
 a{
   text-decoration: none;
   display: block;
-  width: 258px;
-  height: 270px;
+  width: 100%;
+  height:100%;
 }
 
 a:hover{
@@ -75,3 +79,13 @@ h2{
   letter-spacing: 4px;
   font-size: unset;
 }
+
+@media (min-width: 576px) and (max-width: 768px) {
+   section {
+     flex-direction: column;
+     width: 100%;
+   }
+   article {
+     width: 100%;
+   }
+ }
