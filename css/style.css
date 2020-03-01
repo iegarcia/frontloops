@@ -1,6 +1,6 @@
 body {
-  background-image:url("../img/github.png");
-  background-position:top;
+  background-image: url("../img/github.png");
+  background-position: top;
   background-repeat: no-repeat;
   background-color: black;
 }
@@ -17,10 +17,9 @@ body {
   justify-content: center;
 }
 
-
-.primera_mitad{
+.primera_mitad {
   float: left;
-  margin-right: 250px;
+  /* margin-right: 250px; */
 }
 
 .segunda_mitad {
@@ -28,10 +27,10 @@ body {
 }
 
 h1 {
-  width:100%;
-  text-align:center;
-  color:white;
-  text-decoration:underline;
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
 }
 
 .volver {

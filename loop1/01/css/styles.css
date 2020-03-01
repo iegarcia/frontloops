@@ -80,7 +80,7 @@ h2{
   font-size: unset;
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 274px) and (max-width: 768px) {
    section {
      flex-direction: column;
      width: 100%;

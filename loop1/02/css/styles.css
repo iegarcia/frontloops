@@ -115,7 +115,7 @@ button{
   font-weight: 500;
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 356px) and (max-width: 768px) {
   section {
     width: 50%;
   }
