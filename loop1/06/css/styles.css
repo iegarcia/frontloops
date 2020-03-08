@@ -23,10 +23,10 @@
   padding-bottom: 10px;
 }
 section {
-  padding: 20px;
-  margin: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding: 10px;
+  margin: 10px;
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
 }
 /* Titulo, subtitulo */
 .title {
@@ -41,9 +41,16 @@ section {
 
 /* Cuerpo */
 .social {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.google:hover,
+.facebook:hover,
+.twitter:hover {
+  box-shadow: 2px 9px 5px 0px #eeeeee;
 }
 
 .google,
@@ -51,7 +58,10 @@ section {
 .twitter {
   width: 100%;
   text-align: center;
-  border: 1px solid #86808096;
+  border: 1px solid #86808047;
+  padding: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
   margin-bottom: 22px;
 }
 
@@ -72,8 +82,8 @@ a:hover {
 .go,
 .tw {
   float: left;
-  width: 35px;
-  height: 35px;
+  width: 21px;
+  height: 21px;
 }
 
 /* footer */
@@ -100,5 +110,33 @@ hr {
 }
 
 .side {
-  width: 27%;
+  width: 26%;
+}
+
+@media (min-width: 274px) and (max-width: 768px) {
+  .container {
+    height: 100vh;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .side_img {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .container {
+    height: 100vh;
+  }
+
+  .box {
+    width: 50%;
+  }
+
+  .side {
+    display: none;
+  }
 }
