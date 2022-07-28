@@ -1,0 +1,32 @@
+@import url("author_box.css");
+
+@import url("post_content.css");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.loop_7 {
+  background-color: rgb(242, 206, 151);
+  height: 100vh;
+}
+.box {
+  height: 100vh;
+  align-items: center;
+}
+.first_side {
+  margin-right: 0;
+  padding-right: 0;
+  position: relative;
+  left: 22px;
+}
+
+.second_side {
+  margin-left: 0;
+  padding-left: 0;
+  position: relative;
+  right: 22px;
+}

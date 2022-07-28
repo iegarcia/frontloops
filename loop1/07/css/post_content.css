@@ -1,0 +1,46 @@
+.post_content_box {
+  background-color: white;
+  height: 545px;
+  width: 600px;
+}
+
+.post_paragraph,
+.post_footer {
+  text-align: left;
+}
+
+.post_paragraph {
+  width: 575px;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 40px 22px 0 24px;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.first strong {
+  font-size: 30px;
+}
+
+.footer_divider {
+  margin: 0;
+  opacity: 0.3;
+  border-top: 5px solid;
+  color: rgba(115, 115, 115, 0.24);
+  width: 100%;
+}
+
+.post_date {
+  padding-left: 33px;
+  font-size: 14px;
+}
+
+.icons {
+  float: right;
+  margin-right: 30px;
+  font-size: 14px;
+  color: rgb(175, 182, 191);
+}
+.more_icon {
+  margin-left: 20px;
+}

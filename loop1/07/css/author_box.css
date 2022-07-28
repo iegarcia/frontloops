@@ -1,0 +1,44 @@
+.author_box {
+  background-color: rgb(72, 73, 86);
+  height: 545px;
+  color: white;
+  /* width: 440px; */
+}
+
+.post_title {
+  margin: 0;
+  padding: 45px 0 0 45px;
+}
+
+.post_subtitle {
+  padding: 0 0 0 45px;
+  font-weight: 300;
+}
+
+.title_divider {
+  margin: 0;
+  position: relative;
+  left: 46px;
+  opacity: 1;
+  border-top: 4px solid;
+  color: rgb(227, 123, 98);
+  width: 60px;
+}
+
+.author_footer {
+  width: 349px;
+  position: relative;
+  top: 305px;
+}
+
+.author_avatar {
+  border-radius: 70px;
+  width: 65px;
+  box-shadow: 9px 10px 46px 0px rgba(0, 0, 0, 0.75);
+}
+
+.author_name {
+  display: inline;
+  padding-left: 10px;
+  font-weight: 300;
+}
