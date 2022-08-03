@@ -1,91 +1,102 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-body{
-  text-align: center;
-}
-
-.section {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 600px;
-}
-
-.container{
+.loop1 {
   background-color: #629afcb3;
-  width: 100%;
   height: 100vh;
 }
 
-section{
-  display: flex;
-  background: #fff;
-  width: 70%;
-  box-shadow: 0px 6px grey;
-}
-article{
-  width: 34%;
+/* ------ Patch last resource ------ */
+
+.position_patch {
+  height: 300px;
 }
 
-p {
-  color: grey;
+/* --------------------------------- */
+
+.offer_box {
+  background: #fff;
+  text-align: center;
+  width: 900px;
+  border-radius: 5px;
+}
+
+.left_side {
+  margin-left: 19px;
+  margin-right: 46px;
+}
+.middle_side {
+  margin-left: 8px;
+  margin-right: 28px;
+}
+.right_side {
+  margin-left: 28px;
+  margin-right: 46px;
+}
+
+.offer_content {
+  margin-top: 19px;
+}
+
+.offer_link {
+  text-decoration: none;
+  display: block;
+  width: 290px;
+}
+
+.offer_link:hover {
+  background-color: #bdbdbd33;
+}
+
+.offer_image {
+  width: 67px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.offer_title {
+  text-transform: uppercase;
+  color: rgb(78, 98, 200);
+  letter-spacing: 4px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.offer_text {
+  color: rgb(153, 158, 164);
   width: 100%;
   font-size: smaller;
 }
 
-.dollar{
-  font-size: 16px;
+.offer_price {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.offer_price p {
+  color: rgb(78, 98, 200);
+  display: inline;
+}
+
+.money_symbol {
+  font-size: 14px;
   font-weight: bold;
   position: relative;
   left: 3px;
   bottom: 14px;
 }
 
-.size{
-  font-weight: bold;
-  font-size: 29px;
+.value {
+  font-weight: 500;
+  font-size: 32px;
 }
 
-.dollar, .size, .mes{
-  display: inline;
-  color: #00f9;
+.period {
+  font-weight: 400;
+  font-size: 13px;
 }
-
-a{
-  text-decoration: none;
-  display: block;
-  width: 100%;
-  height:100%;
-}
-
-a:hover{
-  background-color: #bdbdbd33;
-}
-
-.imagen{
-  width: 67px;
-  display: block;
-  margin-top: 9px;
-}
-
-h2{
-  text-transform: uppercase;
-  color: #00f9;
-  letter-spacing: 4px;
-  font-size: unset;
-}
-
-@media (min-width: 274px) and (max-width: 768px) {
-   section {
-     flex-direction: column;
-     width: 100%;
-   }
-   article {
-     width: 100%;
-   }
- }
